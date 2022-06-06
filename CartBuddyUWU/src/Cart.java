@@ -54,7 +54,7 @@ Scanner sc = new Scanner(System.in);
 
         while(true){
 
-            System.out.println(" Please Select an Action \n A- To Add An Item \n D- To Remove From Cart \n S- To Show All Items");
+            System.out.println(" Please Select an Action \n A- To Add An Item \n D- To Remove From Cart \n S- To Show All Items \n Q- To Quit");
             String choice = sc.nextLine();
 
             if(choice.toLowerCase().contains("q")){
